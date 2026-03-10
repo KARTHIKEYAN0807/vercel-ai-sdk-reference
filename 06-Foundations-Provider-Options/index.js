@@ -11,12 +11,10 @@ async function runProviderOptionsExample() {
     model,
     prompt: "Write a polite, professional response declining a job offer.",
     
-    // This is the escape hatch. It allows us to pass settings that only Google understands.
-    // If we changed the model to OpenAI tomorrow, the SDK would just ignore this block 
-    // instead of crashing.
+  
     providerOptions: {
       google: {
-        // safetySettings is specific to the Google provider API
+        
         safetySettings: [
           { 
             category: 'HARM_CATEGORY_HARASSMENT', 
