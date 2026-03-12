@@ -1,0 +1,50 @@
+{
+  "runs": [
+    {
+      "id": "20260312100401913-84a93108",
+      "started_at": "2026-03-12T10:04:01.925Z"
+    },
+    {
+      "id": "20260312104706498-b7b5bf36",
+      "started_at": "2026-03-12T10:47:06.507Z"
+    }
+  ],
+  "steps": [
+    {
+      "id": "9123ed0c-a7d6-436b-b5ef-4c192f0f5789",
+      "run_id": "20260312100401913-84a93108",
+      "step_number": 1,
+      "type": "generate",
+      "model_id": "llama3.2",
+      "provider": "ollama.responses",
+      "started_at": "2026-03-12T10:04:01.941Z",
+      "input": "{\"prompt\":[{\"role\":\"user\",\"content\":[{\"type\":\"text\",\"text\":\"Write a short, professional email to a client named Sarah, thanking her for the recent meeting about the Q3 marketing strategy.\"}]}]}",
+      "provider_options": null,
+      "duration_ms": 6445,
+      "output": "{\"content\":[{\"type\":\"text\",\"text\":\"Here is a short, professional email to a client named Sarah:\\n\\nSubject: Thank you for Q3 Marketing Strategy Meeting\\n\\nDear Sarah,\\n\\nI wanted to take a moment to express my gratitude for the opportunity to discuss the Q3 marketing strategy with you during our recent meeting. I appreciate the time you took to share your insights and feedback, and I'm confident that our collaborative efforts will drive success for your business.\\n\\nIf you have any questions or need any further guidance, please don't hesitate to reach out. I'm always here to support you.\\n\\nThank you again for your partnership and I look forward to our next meeting.\\n\\nBest regards,\\n[Your Name]\"}],\"finishReason\":{\"raw\":\"stop\",\"unified\":\"stop\"},\"response\":{\"modelId\":\"llama3.2\",\"timestamp\":\"2026-03-12T10:04:08.370Z\",\"headers\":{\"content-length\":\"965\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Thu, 12 Mar 2026 10:04:08 GMT\"},\"body\":{\"model\":\"llama3.2\",\"created_at\":\"2026-03-12T10:04:08.3646073Z\",\"message\":{\"role\":\"assistant\",\"content\":\"Here is a short, professional email to a client named Sarah:\\n\\nSubject: Thank you for Q3 Marketing Strategy Meeting\\n\\nDear Sarah,\\n\\nI wanted to take a moment to express my gratitude for the opportunity to discuss the Q3 marketing strategy with you during our recent meeting. I appreciate the time you took to share your insights and feedback, and I'm confident that our collaborative efforts will drive success for your business.\\n\\nIf you have any questions or need any further guidance, please don't hesitate to reach out. I'm always here to support you.\\n\\nThank you again for your partnership and I look forward to our next meeting.\\n\\nBest regards,\\n[Your Name]\"},\"done\":true,\"done_reason\":\"stop\",\"total_duration\":6413301900,\"load_duration\":3873002300,\"prompt_eval_count\":50,\"prompt_eval_duration\":307799900,\"eval_count\":132,\"eval_duration\":2174701800}}}",
+      "usage": "{\"inputTokens\":{\"total\":50},\"outputTokens\":{\"total\":132}}",
+      "error": null,
+      "raw_request": "\"{\\\"model\\\":\\\"llama3.2\\\",\\\"messages\\\":[{\\\"role\\\":\\\"user\\\",\\\"content\\\":\\\"Write a short, professional email to a client named Sarah, thanking her for the recent meeting about the Q3 marketing strategy.\\\"}],\\\"think\\\":false}\"",
+      "raw_response": "{\"model\":\"llama3.2\",\"created_at\":\"2026-03-12T10:04:08.3646073Z\",\"message\":{\"role\":\"assistant\",\"content\":\"Here is a short, professional email to a client named Sarah:\\n\\nSubject: Thank you for Q3 Marketing Strategy Meeting\\n\\nDear Sarah,\\n\\nI wanted to take a moment to express my gratitude for the opportunity to discuss the Q3 marketing strategy with you during our recent meeting. I appreciate the time you took to share your insights and feedback, and I'm confident that our collaborative efforts will drive success for your business.\\n\\nIf you have any questions or need any further guidance, please don't hesitate to reach out. I'm always here to support you.\\n\\nThank you again for your partnership and I look forward to our next meeting.\\n\\nBest regards,\\n[Your Name]\"},\"done\":true,\"done_reason\":\"stop\",\"total_duration\":6413301900,\"load_duration\":3873002300,\"prompt_eval_count\":50,\"prompt_eval_duration\":307799900,\"eval_count\":132,\"eval_duration\":2174701800}",
+      "raw_chunks": null
+    },
+    {
+      "id": "ef4e19e7-1adc-405f-9c8b-0c4623bb12f4",
+      "run_id": "20260312104706498-b7b5bf36",
+      "step_number": 1,
+      "type": "generate",
+      "model_id": "llama3.2",
+      "provider": "ollama.responses",
+      "started_at": "2026-03-12T10:47:06.531Z",
+      "input": "{\"prompt\":[{\"role\":\"user\",\"content\":[{\"type\":\"text\",\"text\":\"Write a short, professional email to a client named Sarah, thanking her for the recent meeting about the Q3 marketing strategy.\"}]}]}",
+      "provider_options": null,
+      "duration_ms": 7077,
+      "output": "{\"content\":[{\"type\":\"text\",\"text\":\"Here is a short, professional email to a client:\\n\\nSubject: Thank you for our Q3 Marketing Strategy Meeting\\n\\nDear Sarah,\\n\\nI wanted to take a moment to express my gratitude for the time you took to meet with me recently to discuss our Q3 marketing strategy. I appreciate the opportunity to hear your thoughts and insights, and I am confident that our combined efforts will drive success for our marketing initiatives.\\n\\nPlease let me know if there's anything else I can do to support you or if you have any further questions or concerns. I look forward to working with you to achieve our goals.\\n\\nBest regards,\\n[Your Name]\"}],\"finishReason\":{\"raw\":\"stop\",\"unified\":\"stop\"},\"response\":{\"modelId\":\"llama3.2\",\"timestamp\":\"2026-03-12T10:47:13.584Z\",\"headers\":{\"content-length\":\"924\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Thu, 12 Mar 2026 10:47:13 GMT\"},\"body\":{\"model\":\"llama3.2\",\"created_at\":\"2026-03-12T10:47:13.578757Z\",\"message\":{\"role\":\"assistant\",\"content\":\"Here is a short, professional email to a client:\\n\\nSubject: Thank you for our Q3 Marketing Strategy Meeting\\n\\nDear Sarah,\\n\\nI wanted to take a moment to express my gratitude for the time you took to meet with me recently to discuss our Q3 marketing strategy. I appreciate the opportunity to hear your thoughts and insights, and I am confident that our combined efforts will drive success for our marketing initiatives.\\n\\nPlease let me know if there's anything else I can do to support you or if you have any further questions or concerns. I look forward to working with you to achieve our goals.\\n\\nBest regards,\\n[Your Name]\"},\"done\":true,\"done_reason\":\"stop\",\"total_duration\":7026736000,\"load_duration\":4562286700,\"prompt_eval_count\":50,\"prompt_eval_duration\":350878500,\"eval_count\":126,\"eval_duration\":2062649600}}}",
+      "usage": "{\"inputTokens\":{\"total\":50},\"outputTokens\":{\"total\":126}}",
+      "error": null,
+      "raw_request": "\"{\\\"model\\\":\\\"llama3.2\\\",\\\"messages\\\":[{\\\"role\\\":\\\"user\\\",\\\"content\\\":\\\"Write a short, professional email to a client named Sarah, thanking her for the recent meeting about the Q3 marketing strategy.\\\"}],\\\"think\\\":false}\"",
+      "raw_response": "{\"model\":\"llama3.2\",\"created_at\":\"2026-03-12T10:47:13.578757Z\",\"message\":{\"role\":\"assistant\",\"content\":\"Here is a short, professional email to a client:\\n\\nSubject: Thank you for our Q3 Marketing Strategy Meeting\\n\\nDear Sarah,\\n\\nI wanted to take a moment to express my gratitude for the time you took to meet with me recently to discuss our Q3 marketing strategy. I appreciate the opportunity to hear your thoughts and insights, and I am confident that our combined efforts will drive success for our marketing initiatives.\\n\\nPlease let me know if there's anything else I can do to support you or if you have any further questions or concerns. I look forward to working with you to achieve our goals.\\n\\nBest regards,\\n[Your Name]\"},\"done\":true,\"done_reason\":\"stop\",\"total_duration\":7026736000,\"load_duration\":4562286700,\"prompt_eval_count\":50,\"prompt_eval_duration\":350878500,\"eval_count\":126,\"eval_duration\":2062649600}",
+      "raw_chunks": null
+    }
+  ]
+}

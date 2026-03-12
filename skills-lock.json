@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "laminar-quickstart-trace": {
+      "source": "lmnr-ai/laminar-skills",
+      "sourceType": "github",
+      "computedHash": "d86b5574427f756aa8c915e1ce4da3fae02f21bb2125075eaba5a941ed09a4b7"
+    }
+  }
+}
